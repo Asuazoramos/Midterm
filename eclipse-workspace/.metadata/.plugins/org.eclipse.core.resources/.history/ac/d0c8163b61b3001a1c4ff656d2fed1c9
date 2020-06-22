@@ -1,0 +1,71 @@
+package EnergyDrink;
+
+
+public class Brands {
+	
+	
+public static String RedBull = "Sugars";
+public static String Monster = "NoSugar";
+public static String Bang = "thebest";
+
+
+public Brands () {}
+	
+	public Brands(String Brands) {
+		
+		this.RedBull=Brands;
+		
+	}
+	
+	
+	public Brands(String Company1, String Company2, String Company3) {
+		this.RedBull=Company1;
+				this.Monster=Company2;
+				this.Bang=Company3;
+				
+		}
+	
+	public static void getRedBull ()
+	{
+		
+		System.out.println(RedBull);
+		
+	}
+	
+	public static void getMonster ()
+	{
+		
+		System.out.println(RedBull);
+		
+		
+		
+	}
+	
+	public static void getBang () {
+		
+		
+		System.out.println(Bang);
+		
+	}
+	
+	
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+package ClassAbstraction;
+
+public abstract class TypesMovies {
+
+public abstract void Avengers();
+
+public static void 
+thanos()
+{
+	
+	System.out.println("CaptainAmerica");
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

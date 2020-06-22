@@ -1,0 +1,88 @@
+package PartCities;
+
+
+public class Miami {
+	
+	
+	private static String Bars;
+	private static String Drinks;
+	private static String Alcohol;
+	
+	public static void setBars(String Bars) {
+		
+		Miami.Bars = Bars;
+		
+	}
+	
+	
+	public static void setDrinks(String Drinks) {
+		
+		
+		Miami.Drinks = Drinks;
+		
+	}
+	
+	public static void setAlcohol(String Alcohol) 
+	{
+		
+		Miami.Alcohol = Alcohol;
+		
+	}
+	
+	public static String getBars ()
+	{
+		
+		return Bars;
+		
+	}
+	
+	public static String getAlcohol ()
+	{
+		
+		
+		return Alcohol;
+		
+	}
+	
+	
+	public static String getDrinks ()
+	
+	{
+		
+		return Drinks;
+		
+		
+	}
+	
+	
+	
+	
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

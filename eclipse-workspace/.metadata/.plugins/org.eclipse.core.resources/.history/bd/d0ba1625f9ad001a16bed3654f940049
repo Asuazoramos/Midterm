@@ -1,0 +1,50 @@
+package Doctors;
+
+public class HealthCareers{
+	
+	
+	public static void main(String[] args)
+	{
+		
+		String medical1 ="nurse";
+		String medical2 ="appoinment";
+		String medical3 ="help";
+		
+		
+		
+		Careers Careers = new Careers(medical1,medical2,medical3);
+		
+		
+		
+		
+		Careers.getNursing();
+		Careers.getDoctors();
+		Careers.getMedical();
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

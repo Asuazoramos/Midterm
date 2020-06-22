@@ -1,0 +1,30 @@
+package Encapsulation;
+
+public class TechnologySamsung {
+
+
+
+public static void  main(String[] args) {
+	
+	
+	SamsungStores SamsungStores = new SamsungStores ();
+			
+	
+	SamsungStores.setSmartTV("development");
+	SamsungStores.setPhones("newphone");
+	SamsungStores.setScreen("newTV");
+	
+	System.out.println(SamsungStores.getSmartTV() + SamsungStores.getPhones() + SamsungStores.getScreen());
+
+
+
+}
+
+
+
+
+
+
+
+
+}

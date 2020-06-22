@@ -1,0 +1,42 @@
+package PartCities;
+
+public class Holidays {
+
+public static void main(String args) {
+	
+	new Miami();
+	
+	
+	Miami.setDrinks("vodka");
+	Miami.setAlcohol("whisky");
+	Miami.setBars("downtown");
+	
+	System.out.println(Miami.getDrinks() + Miami.getAlcohol());
+	
+	
+	
+	
+}
+
+
+
+}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

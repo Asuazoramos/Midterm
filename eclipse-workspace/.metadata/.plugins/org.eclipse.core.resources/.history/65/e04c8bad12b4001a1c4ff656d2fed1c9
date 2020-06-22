@@ -1,0 +1,5 @@
+package Abstracion;
+
+public abstract class Destination {
+
+}

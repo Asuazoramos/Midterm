@@ -1,0 +1,75 @@
+package Abstracion;
+
+
+public class Dealers extends Destination{
+	
+	
+	
+	public void fordDealers() {
+		
+		
+	System.out.println("mustang");
+		
+		
+	}
+	
+	
+	public static void main1(String[] args) {
+		
+		Focus();
+		
+		
+	}
+
+
+	protected static void Focus() {
+	System.out.println("focus");
+		
+	}
+
+
+	@Override
+	public void FordDealers() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
+	
+	
+	
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

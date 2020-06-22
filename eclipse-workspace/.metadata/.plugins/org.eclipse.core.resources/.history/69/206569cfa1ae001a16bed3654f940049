@@ -1,0 +1,44 @@
+package ClassAbstraction02;
+
+public class AudioCars extends BassSize{
+	
+	
+	public void AudioMax() {
+		
+		
+	System.out.println("kitipo");
+	
+	}
+	 public void main (String[] args) {
+		 
+		commando();
+		 
+		 
+		 
+		 
+	 }
+	
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+

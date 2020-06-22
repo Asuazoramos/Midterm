@@ -1,0 +1,84 @@
+package ExoticCars;
+
+
+
+public class Countries {
+	
+	
+	
+	public static String Italian="ferrari";
+	public static String Germany="mercedes";
+	public static String French="berling";
+	
+	
+	public Countries() {}
+	
+	
+	public Countries(String Countries) {
+		
+ Italian=Countries;
+		
+		
+		}
+	
+	
+	public Countries(String luxury1, String luxury2, String luxury3) {
+		
+		Countries.Italian="luxury1;";
+		Countries.Germany="mercedes";
+		Countries.French="berling";
+		
+		
+		
+	}
+	
+	
+	public static void getItalian() 
+	{
+		
+		
+		System.out.println(Italian);
+		
+	}
+	
+	
+	
+	public static void getGermany() {
+		
+		System.out.println(Germany);
+		
+	}
+	
+
+public static void getFrench() {
+	
+	System.out.println(French);
+	
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

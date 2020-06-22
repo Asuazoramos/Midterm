@@ -1,0 +1,9 @@
+package Models;
+
+public class types {
+
+	public types() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

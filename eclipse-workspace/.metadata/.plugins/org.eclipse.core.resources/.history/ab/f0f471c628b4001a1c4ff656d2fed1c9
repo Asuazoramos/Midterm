@@ -1,0 +1,5 @@
+package CompanyAbstraction;
+
+public abstract class Employess {
+
+}

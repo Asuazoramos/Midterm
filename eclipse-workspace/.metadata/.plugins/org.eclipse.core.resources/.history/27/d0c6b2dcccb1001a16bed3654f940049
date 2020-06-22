@@ -1,0 +1,40 @@
+package EnumExample;
+
+public class TestMonths {
+
+
+
+public static void main(String[] args) {
+	
+	Months months = new Months();
+	months.taskToDo.mars);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

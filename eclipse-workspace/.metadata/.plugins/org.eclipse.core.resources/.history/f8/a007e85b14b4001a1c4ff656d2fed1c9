@@ -1,0 +1,24 @@
+package Abstracion;
+
+public abstract class Destination {
+
+
+public abstract void FordDealers();
+{  
+	
+	System.out.println("cars");
+	
+}
+
+
+public abstract void HondaDealers();
+
+{  
+
+System.out.println("japancar");
+}
+
+
+
+
+}

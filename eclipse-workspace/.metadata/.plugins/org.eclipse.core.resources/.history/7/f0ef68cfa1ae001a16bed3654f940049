@@ -1,0 +1,36 @@
+package ClassAbstraction02;
+
+public abstract class  BassSize {
+
+
+public abstract void AudioMax();
+	
+
+public static void commando()
+	{
+		
+		System.out.println("kicker");
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

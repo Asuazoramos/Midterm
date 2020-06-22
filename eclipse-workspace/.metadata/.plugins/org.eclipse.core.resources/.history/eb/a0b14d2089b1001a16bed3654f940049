@@ -1,0 +1,28 @@
+package Encapsulation;
+
+public class TechnologySamsung {
+
+
+
+public static void  main(String[] args) {
+	
+	
+	SamsungStores SamsungStores = new SamsungStores ();
+			
+	
+	SamsungStores.setSmartTV("development");
+	
+	Sans=
+
+
+
+}
+
+
+
+
+
+
+
+
+}

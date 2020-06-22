@@ -1,0 +1,94 @@
+package Fitness;
+
+
+public class Gyms{
+	
+	
+	public static String HourFitness = "Back";
+	public static String Fitness = "shoulders";
+	public static String LA = "biceps";
+	
+	public Gyms (){}
+	
+	public Gyms(String Gyms) {
+		
+		this.HourFitness="Gyms";
+		
+	}
+	
+	
+	public Gyms(String center1,String center2, String center3) {
+		
+		
+		this.HourFitness=center1;
+	
+		}
+	
+	
+	public static void getHourFitness () {
+		
+		System.out.println(HourFitness);
+		
+		
+	}
+	 
+	public static void getFitness () {
+		System.out.println(Fitness);
+		
+		
+		
+		
+	}
+	
+	
+	
+	public void getLA () {
+		
+		
+		
+		System.out.println(LA);
+		
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

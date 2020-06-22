@@ -1,0 +1,91 @@
+package EnumExample;
+
+import java.util.Date;
+
+public class Months {
+
+
+private static final int Months = 0;
+private static final int January2010 = 0;
+public Day days;
+private Day day;
+private int february2015;
+private int march2019;
+public Object taskToDo;
+
+
+public Months() {}
+	public Months(Day day) {
+		
+		this.days = day;
+		
+	}
+	
+	public void taskToDo(Day day) {
+		
+		this.day = day;
+		
+	
+		switch(Months) {
+				case January2010:
+					System.out.println("ten years ago");
+					break;
+			
+		case february2015:
+					System.out.println("five years ago");
+				break;
+				
+		case march2019:
+			System.out.println("one year ago");
+			break;
+					
+		}		
+				
+					
+					
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

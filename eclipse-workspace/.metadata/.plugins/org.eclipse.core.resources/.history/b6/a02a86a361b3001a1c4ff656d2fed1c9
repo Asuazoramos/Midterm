@@ -1,0 +1,37 @@
+package EnergyDrink;
+
+public class BestCompany {
+
+
+public static void main(String[] args)
+{
+	
+	String Company1="RedBull";
+	String Company2="Monster";
+	String Company3="Bang";
+	
+	Brands brands = new Brands(Company1,Company2,Company3);
+	
+	
+	Brands.getRedBull();
+	Brands.getMonster();
+	Brands.getBang();
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+}

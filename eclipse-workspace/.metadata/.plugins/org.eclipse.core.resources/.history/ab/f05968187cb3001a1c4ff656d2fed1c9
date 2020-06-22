@@ -1,0 +1,46 @@
+package ExoticCars;
+
+public class NoMoney {
+
+
+public static void main(String[] args ) {
+	
+	
+	String luxury1="ferrari";
+	String luxury2="mercedes";
+	String luxury3="berling";
+	
+	
+	Countries countries = new Countries(luxury1, luxury2, luxury3);
+	
+	
+	Countries.getItalian();
+	Countries.getGermany();
+	Countries.getFrench();
+	
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

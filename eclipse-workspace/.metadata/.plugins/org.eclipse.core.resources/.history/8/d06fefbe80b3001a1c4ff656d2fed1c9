@@ -1,0 +1,40 @@
+package Water;
+
+public class Bottles {
+
+
+
+public static void main(String[] args) {
+	
+	
+	String best1="walmart";
+	String best2="target";
+	String best3="ikea";
+	
+	
+	DrinksWater drinkswater = new DrinksWater(best1,best2,best3);
+	
+	
+	DrinksWater.getAquafina();
+	DrinksWater.getNestle();
+	DrinksWater.getDasani();
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,2 @@
+Hello my name is angel 
+this my buffered reader homework6.

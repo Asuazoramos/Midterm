@@ -1,0 +1,5 @@
+package design;
+
+public enum Department2 {
+    MARKETING,INVENTORY,DISTRIBUTION,HUMAN_RESOURCES,FINANCE,MANAGEMENT;
+}

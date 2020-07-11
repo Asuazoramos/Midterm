@@ -1,7 +1,6 @@
 package design;
 
 import Contract2.Contract2;
-import Department2.Department;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -47,8 +46,8 @@ public class EmployeeInfo {
 	 * you must have multiple constructor.
 	 * Must implement below constructor.
 	 */
-	public EmployeeInfo(Department department, String location, String employeeName, int employeeId,Contract2 contract2){
-        this(department,location,"","",contract2,employeeId,employeeName,0.0);
+	public EmployeeInfo(Department2 department, String location, String employeeName, int employeeId, Contract2 contract2, Department2 department2){
+        this(department,location,"","",contract2,employeeId,employeeName,0.0, department2);
         this.accountNumber="not available";
         this.phoneNumber="not available";
         this.address="not available";
@@ -57,12 +56,12 @@ public class EmployeeInfo {
 	    
     }
 
-    public EmployeeInfo(Department department, String location,String phoneNumber,String address,Contract2 contract2,int employeeId,String employeeName,double salary)
+    public EmployeeInfo(Department2 department, String location, String phoneNumber, String address, Contract2 contract2, int employeeId, String employeeName, double salary, Department2 department2)
     {
-        this(department,location,phoneNumber,address,"",contract2,employeeId,employeeName,salary);
+        this(department2,location,phoneNumber,address,"",contract2,employeeId,employeeName,salary);
     }
 
-    public EmployeeInfo(Department department, String location, String phoneNumber, String address, String accountNumber, Contract2 contract2, int employeeId, String employeeName, double salary) {
+    public EmployeeInfo(Department2 department, String location, String phoneNumber, String address, String accountNumber, Contract2 contract2, int employeeId, String employeeName, double salary) {
 
     this.phoneNumber = phoneNumber;
     this.address = address;
@@ -134,7 +133,7 @@ public class EmployeeInfo {
             pay= hourl1ypay*hoursworked;
             if(hoursworked<40)
                 System.out.println(employeeName + "makes" + hourl1ypay + "dollars an hour and this made" + pay + "dollars.");
-                pay + " dollars.");
+
                  if (hoursworked>40) {
                     int y;
                     y=hoursworked-40;
@@ -256,7 +255,7 @@ public class EmployeeInfo {
         int yearsBetween=period.getYears();
 
 
-        for(i=0;i<=yearsBetween;i++) {
+        for(i=0;i<yearsBetween;i++) {
             total=yearsBetween*.05*salary;
         }
         return (int) total;
@@ -266,10 +265,9 @@ public class EmployeeInfo {
     }
 
     public void departamentDuties() {
+
     }
 
-    public void getDepartment() {
-    }
 
     private static class DateConversion {
 
@@ -278,7 +276,7 @@ public class EmployeeInfo {
 			String [] extractMonth = date.split(",");
 			String givenMonth = extractMonth[0];
 			int monthDate = whichMonth(givenMonth);
-			String actualDate = monthDate + "/" + extractMonth[1];
+			String actualDate = "0"+monthDate + "/" + extractMonth[1];
 			return actualDate;
 		}
 
@@ -330,4 +328,30 @@ public class EmployeeInfo {
 
 		}
 	}
+	private static class PeriodWorked{
+
+
+        public static Period periodOfTimeWorked(String hiredDate){
+	        String [] date1=hiredDate.split("/");
+	        int d=Integer.parseInt(date1[0]);
+	        int m=Integer.parseInt(date1[1]);
+	        int y=Integer.parseInt(date1[2]);
+
+	        LocalDate dateHired=LocalDate.of(y,m,d);
+	        LocalDate dateCurrent=LocalDate.now();
+	        return Period.between(dateHired, dateCurrent);
+        }
+
+
+        public static Period PeriodOfTimeWorked(String hiredDate) {
+
+            return periodOfTimeWorked(hiredDate);
+        }
+    }
+    @Override
+    public String toString() {
+	    return "EmployeeInfo [phoneNumber=" + phoneNumber + ", address=" + address + ", + accountNumber=" + accountNumber +
+                ", contract=" + contract + ", employeeID=" + employeeId + ",employeeName=" + employeeName + ",salary=" +
+                salary + ", locations= + locations " + "]";
+    }
 }

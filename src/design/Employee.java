@@ -1,7 +1,5 @@
 package design;
 
-import Department2.Department;
-
 public interface Employee {
 	
 	/*Employee is an Interface which contains multiple unimplemented methods.Again few methods
@@ -17,7 +15,7 @@ public interface Employee {
 	public  String employeeName();
 	
 	//assignDepartment() will assign employee to departments
-    public void assignDepartment(Department department);
+    public void assignDepartment(Department2 department);
 	
 	//calculate employee salary
 	public double calculateSalary(double month1ypay);

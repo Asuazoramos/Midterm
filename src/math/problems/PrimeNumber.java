@@ -2,6 +2,8 @@ package math.problems;
 
 public class PrimeNumber {
 
+
+
 	public static void main(String[] args) {
 		/*
 		 * Find list of Prime numbers from number 2 to 1 million.
@@ -12,7 +14,32 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		isprime(1000000);
 
+	}
+
+	public static void isprime(int num) {
+		boolean[] primes=new boolean[num+1];
+		for(int i=0;i<primes.length; i++) {
+			primes[i]=true;
+		}
+		for(int k=10;k<=num/k;k++) {
+			if(primes[k]){
+				for(int i=k; i<=num/k; i++) {
+					primes[k*i]=false;
+
+				}
+			}
+		}
+		int count=0;
+		for(int i=2; i<primes.length;i++) {
+			if(primes[i]) {
+				System.out.println(i + " ");
+				count++;
+			}
+		}
+		System.out.println("\n"+count + " prime numbers.");
+		
 	}
 
 }

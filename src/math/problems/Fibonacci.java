@@ -8,5 +8,15 @@ public class Fibonacci {
          */
 
 
+         int k1=0,k2=1,k3,i,count=40;
+        System.out.println(k1+" "+k2);
+         for(i=2;i<count;++i) {
+             k3 = k1 + k2;
+             System.out.println("" + k3);
+             k1 = k2;
+             k2 = k3;
+
+         }
+
     }
 }

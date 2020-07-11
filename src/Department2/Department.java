@@ -1,0 +1,5 @@
+package Department2;
+
+public enum Department {
+MARKETING,INVENTORY,DISTRIBUTION,HUMAN_RESOURCES,FINANCE,MANAGEMENT
+}

@@ -1,12 +1,11 @@
 package datastructure;
 
-import java.util.Collection;
-import java.util.Collections;
-import java.util.HashMap;
+import java.security.KeyStore;
+import java.util.*;
 
 public class CollectionView {
 
-public static void main(String[] args) {
+public static <Entr> void main(String[] args) {
         /*
          Map is created and inserted some data.Retrieve the Collection view of values present in map
          */
@@ -17,6 +16,13 @@ public static void main(String[] args) {
         map.put(4, "Boston");
         map.put(5, "San Jose");
         map.put(6, "Seattle");
+
+        Set<Map.Entry<Integer,String>> entrySet=map.entrySet();
+        Iterator<Map.Entry<Integer,String>> iterator=entrySet.iterator();
+        for(Map.Entry<Integer,String> entry:entrySet) {
+                Integer j=entry.getKey();
+                System.out.println(j + " "+ entry.getValue());
+        }
 
 
 

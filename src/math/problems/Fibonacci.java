@@ -19,4 +19,8 @@ public class Fibonacci {
          }
 
     }
+
+    public int fibonacciExt(int i) {
+        return 0;
+    }
 }
